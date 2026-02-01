@@ -15,7 +15,7 @@ app.use('/images', express.static('images'));
 app.use(cors())
 
 // Optional: restrict to your frontend only
-app.use(cors({ origin: 'http://localhost:3000' }))
+//app.use(cors({ origin: 'http://localhost:3000' }))
 
 // Routes
 app.use('/api/menu', require('./routes/menuRoutes'))
