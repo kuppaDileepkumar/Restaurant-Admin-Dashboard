@@ -24,8 +24,7 @@ const seedData = async () => {
         ingredients: ['Paneer', 'Butter', 'Tomato', 'Cream', 'Spices'],
         preparationTime: 25,
         isAvailable: true,
-        imageUrl: `/images/${req.file.filename}`
-'
+        imageUrl: 'PaneerTikka.jpg'
       },
       {
         name: 'Veg Manchurian',
@@ -35,7 +34,7 @@ const seedData = async () => {
         ingredients: ['Cabbage', 'Carrot', 'Garlic', 'Soy Sauce'],
         preparationTime: 15,
         isAvailable: true,
-        imageUrl: 'https://restaurant-admin-dashboard-0jjp.onrender.com/images/VegManchurian.jpg' 
+        imageUrl: 'VegManchurian.jpg' 
       },
       {
         name: 'Gulab Jamun',
@@ -45,7 +44,7 @@ const seedData = async () => {
         ingredients: ['Milk Solids', 'Sugar', 'Cardamom'],
         preparationTime: 10,
         isAvailable: true,
-        imageUrl: 'https://restaurant-admin-dashboard-0jjp.onrender.com/images/GulabJamun.jpg' 
+        imageUrl: 'GulabJamun.jpg' 
       },
       {
         name: 'Masala Chai',
@@ -55,7 +54,7 @@ const seedData = async () => {
         ingredients: ['Tea Leaves', 'Milk', 'Ginger', 'Cardamom'],
         preparationTime: 5,
         isAvailable: true,
-        imageUrl: 'https://restaurant-admin-dashboard-0jjp.onrender.com/images/MasalaChai.jpg'
+        imageUrl: 'MasalaChai.jpg'
       },
       {
         name: 'Butter Naan',
@@ -65,7 +64,7 @@ const seedData = async () => {
         ingredients: ['Wheat Flour', 'Butter', 'Yeast'],
         preparationTime: 10,
         isAvailable: true,
-        imageUrl: 'https://restaurant-admin-dashboard-0jjp.onrender.com/images/ButterNaan.jpg'
+        imageUrl: 'ButterNaan.jpg'
       },
       {
         name: 'Veg Spring Rolls',
@@ -75,7 +74,7 @@ const seedData = async () => {
         ingredients: ['Cabbage', 'Carrot', 'Capsicum', 'Soy Sauce'],
         preparationTime: 12,
         isAvailable: true,
-        imageUrl: 'https://restaurant-admin-dashboard-0jjp.onrender.com/images/VegSpringRolls.jpg'
+        imageUrl: 'VegSpringRolls.jpg'
       },
       {
         name: 'Chocolate Brownie',
@@ -85,7 +84,7 @@ const seedData = async () => {
         ingredients: ['Chocolate', 'Flour', 'Sugar', 'Butter'],
         preparationTime: 15,
         isAvailable: true,
-        imageUrl: 'https://restaurant-admin-dashboard-0jjp.onrender.com/images/ChocolateBrownie.jpg'
+        imageUrl: 'ChocolateBrownie.jpg'
       },
       {
         name: 'Lemonade',
@@ -95,7 +94,7 @@ const seedData = async () => {
         ingredients: ['Lemon', 'Sugar', 'Water', 'Mint'],
         preparationTime: 5,
         isAvailable: true,
-        imageUrl: 'https://restaurant-admin-dashboard-0jjp.onrender.com/images/Lemonade.jpg'
+        imageUrl: 'Lemonade.jpg'
       },
       {
         name: 'Paneer Tikka',
@@ -105,7 +104,7 @@ const seedData = async () => {
         ingredients: ['Paneer', 'Yogurt', 'Spices'],
         preparationTime: 20,
         isAvailable: true,
-        imageUrl: 'https://restaurant-admin-dashboard-0jjp.onrender.com/images/PaneerTikka.jpg'
+        imageUrl: 'PaneerTikka.jpg'
       },
       {
         name: 'Veg Biryani',
@@ -115,7 +114,7 @@ const seedData = async () => {
         ingredients: ['Rice', 'Carrot', 'Peas', 'Spices', 'Paneer'],
         preparationTime: 30,
         isAvailable: true,
-        imageUrl: 'https://restaurant-admin-dashboard-0jjp.onrender.com/images/VegBiryani.jpg'
+        imageUrl: 'VegBiryani.jpg'
       }
     ])
 
