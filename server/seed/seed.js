@@ -24,7 +24,8 @@ const seedData = async () => {
         ingredients: ['Paneer', 'Butter', 'Tomato', 'Cream', 'Spices'],
         preparationTime: 25,
         isAvailable: true,
-        imageUrl: 'images/paneer.jpg'
+        imageUrl: `/images/${req.file.filename}`
+'
       },
       {
         name: 'Veg Manchurian',
