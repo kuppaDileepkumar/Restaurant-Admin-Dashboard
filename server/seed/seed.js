@@ -24,7 +24,7 @@ const seedData = async () => {
         ingredients: ['Paneer', 'Butter', 'Tomato', 'Cream', 'Spices'],
         preparationTime: 25,
         isAvailable: true,
-        imageUrl: 'https://restaurant-admin-dashboard-0jjp.onrender.com/images/paneer.jpg'
+        imageUrl: 'images/paneer.jpg'
       },
       {
         name: 'Veg Manchurian',
