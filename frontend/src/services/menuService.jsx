@@ -1,8 +1,7 @@
 // src/services/menuService.js
 import axios from 'axios'
 
-const BASE_URL = 'http://localhost:5000/api/menu'
-
+const BASE_URL = 'https://restaurant-admin-dashboard-0jjp.onrender.com/api/menu'
 // Get all menu items with optional filters
 export const getMenuItems = async ({ category, isAvailable, search } = {}) => {
   const params = {}
