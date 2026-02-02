@@ -131,10 +131,8 @@ exports.toggleAvailability = async (req, res) => {
     item.isAvailable = !item.isAvailable
     await item.save()
 
-    res.json({
-      message: 'Availability updated',
-      isAvailable: item.isAvailable
-    })
+    res.json(item)
+    
   } catch (error) {
     res.status(400).json({ error: error.message })
   }
