@@ -7,7 +7,7 @@ const BASE_URL = 'http://localhost:5000/api/menu'
 export const getMenuItems = async ({ category, isAvailable, search } = {}) => {
   const params = {}
   if (category) params.category = category
-  if (isAvailable !== undefined) params.isAvailable = isAvailable
+  if (isAvailable !== undefined) params.availability = isAvailable
   if (search) params.q = search
 
   const { data } = await axios.get(BASE_URL, { params })
